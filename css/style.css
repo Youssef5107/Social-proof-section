@@ -16,3 +16,34 @@
 	font-family: medium;
 	src: url(../font/League_Spartan/static/LeagueSpartan-Medium.ttf);
 }
+
+@font-face {
+	font-family: bold;
+	src: url(../font/League_Spartan/static/LeagueSpartan-Bold.ttf);
+}
+
+body {
+	height: 100vh;
+	background-color: var(--Light-Grayish-Magenta);
+	padding: 120px;
+}
+
+main {
+	display: flex;
+}
+
+.main-title {
+	color: var(--Very-Dark-Magenta);
+	font-size: 40px;
+	max-width: 265px;
+	width: 100%;
+	font-family: bold;
+}
+
+.main-content {
+	margin-top: 20px;
+	color: var(--Dark-Grayish-Magenta);
+	max-width: 370px;
+	width: 100%;
+	font-family: light;
+}
