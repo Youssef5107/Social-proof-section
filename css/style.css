@@ -24,12 +24,13 @@
 
 body {
 	height: 100vh;
-	background-color: var(--Light-Grayish-Magenta);
 	padding: 120px;
 }
 
 main {
 	display: flex;
+	width: 100%;
+	height: 100vh;
 }
 
 .main-title {
@@ -46,4 +47,29 @@ main {
 	max-width: 370px;
 	width: 100%;
 	font-family: light;
+}
+
+.ratting-cards-area {
+	display: flex;
+	flex-grow: 1;
+	justify-content: end;
+	margin-right: 10%;
+}
+
+.ratting-card {
+	display: flex;
+	background-color: var(--Light-Grayish-Magenta);
+	padding: 10px;
+	border-radius: 7px;
+	margin-top: 10px;
+	max-width: 400px;
+	width: 100%;
+}
+
+.ratting-card2 {
+	margin-left: 30px;
+}
+
+.ratting-card3 {
+	margin-left: 60px;
 }
