@@ -73,3 +73,17 @@ main {
 .ratting-card3 {
 	margin-left: 60px;
 }
+
+.ratting-star {
+	width: 15px;
+	height: 15px;
+	margin-left: 5px;
+}
+
+.ratted-object {
+	color: var(--Very-Dark-Magenta);
+	margin-left: 15px;
+	font-family: medium;
+	font-size: 17px;
+	margin: auto;
+}
