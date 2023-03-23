@@ -63,10 +63,12 @@ main {
 	margin-top: 10px;
 	max-width: 400px;
 	width: 100%;
+
 }
 
 .ratting-card2 {
 	margin-left: 30px;
+
 }
 
 .ratting-card3 {
@@ -130,4 +132,34 @@ section {
 	color: white;
 	font-family: light;
 	font-size: 15px;
+}
+
+@media(max-width:900px) {
+	.ratting-card {
+		justify-content: center;
+		flex-wrap: wrap;
+		margin-top: 15px;
+	}
+
+	.ratted-object {
+		margin-top: 10px;
+	}
+
+	section {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+	}
+
+	.profile-card {
+		margin-right: 0px;
+		margin-top: 15px;
+	}
+
+}
+
+@media(max-width:640px) {
+	/* body {
+		padding: 0px;
+	} */
 }
