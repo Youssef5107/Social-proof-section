@@ -158,8 +158,35 @@ section {
 
 }
 
-@media(max-width:640px) {
-	/* body {
-		padding: 0px;
-	} */
+@media(max-width:730px) {
+	body {
+		padding: 50px;
+	}
+
+	main {
+		flex-wrap: wrap;
+	}
+
+	.main-content-area {
+		margin: auto;
+	}
+
+	.main-title {
+		text-align: center;
+		margin: auto;
+	}
+
+	.main-content {
+		text-align: center;
+	}
+
+	.ratting-cards-area {
+		justify-content: center;
+		flex-wrap: wrap;
+		margin-right: 0px;
+	}
+
+	.ratting-card {
+		margin-left: 0px;
+	}
 }
