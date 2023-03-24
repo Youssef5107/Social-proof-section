@@ -23,7 +23,7 @@
 }
 
 body {
-	height: 100vh;
+	height: 70vh;
 	padding: 100px;
 }
 
@@ -95,12 +95,13 @@ section {
 }
 
 .profile-card {
-	max-width: 450px;
+	max-width: 350px;
 	width: 100%;
 	background-color: var(--Very-Dark-Magenta);
 	margin-right: 25px;
 	padding: 25px;
 	border-radius: 10px;
+	height: 160px;
 }
 
 .user-info {
@@ -131,7 +132,8 @@ section {
 	margin-top: 15px;
 	color: white;
 	font-family: light;
-	font-size: 15px;
+	font-size: 17px;
+
 }
 
 @media(max-width:900px) {
@@ -160,6 +162,11 @@ section {
 	.profile-card {
 		margin-right: 0px;
 		margin-top: 15px;
+		height: fit-content;
+	}
+
+	.main-card-content {
+		font-size: 15px;
 	}
 
 }
