@@ -24,7 +24,7 @@
 
 body {
 	height: 100vh;
-	padding: 120px;
+	padding: 100px;
 }
 
 main {
@@ -62,7 +62,7 @@ main {
 	border-radius: 7px;
 	margin-top: 10px;
 	max-width: 400px;
-	width: 100%;
+	width: 110%;
 
 }
 
@@ -137,7 +137,8 @@ section {
 @media(max-width:900px) {
 
 	.cards-area {
-		width: 270px;
+		max-width: 250px;
+		width: 100%;
 	}
 
 	.ratting-card {
@@ -198,6 +199,7 @@ section {
 	}
 
 	section {
-		margin: 50px auto 50px;
+		margin: 50px auto;
+		padding-bottom: 50px;
 	}
 }
