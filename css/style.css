@@ -135,6 +135,11 @@ section {
 }
 
 @media(max-width:900px) {
+
+	.cards-area {
+		width: 270px;
+	}
+
 	.ratting-card {
 		justify-content: center;
 		flex-wrap: wrap;
@@ -193,6 +198,6 @@ section {
 	}
 
 	section {
-		margin-top: 50px;
+		margin: 50px auto 50px;
 	}
 }
